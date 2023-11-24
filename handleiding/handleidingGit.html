@@ -97,7 +97,16 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 // lees error: fail push 
 // lees hint: git pull
-daarna bekijk file op fouten en verbeter
+// daarna bekijk file op fouten en verbeter, zie voorbeeld fout:
+<<<<<<< HEAD
+#probleemverhelping
+#end
+=======
+#probleemveroorzaker
+#end
+>>>>>>> b6d971206aa9200b74e67d8634b7beb79d6938bf
+groene text is van file on computer en blauwe van file op GitHub
+// sla file op
 git add .
 git commit -m "commentaar"
 git push
