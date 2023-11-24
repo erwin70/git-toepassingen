@@ -15,7 +15,7 @@
 </head>  
 <body style="background-color: beige"> 
 <!-- 
-git innit                                                   maakt een lege .git-repository map aan of innitialiseer een bestaande opnieuw
+git init                                                   maakt een lege .git-repository map aan of innitialiseer een bestaande opnieuw
 git mkdir www                                               maakt een map aan met naam www
 cd www                                                      gaat een stap hoger in de map www
 cd ..                                                       gaat uit de map naar een map lager
@@ -47,8 +47,21 @@ git add.
 git commit "eerste wijziging in new branch"
 git checkout main                                           nu ga je terug naar main branch en dan zie je in de file die je hebt gewijzigd deze wijzigingen niet zijn gebeurd
 git checkout testbranch                                     nu zie je wel de laatste veranderingen weer in dat file
+git checkout main
 git merge main                                              voeg alles van testbranch en main samen in main
 
+// met rechtermuisknop en paste kun je iets plakken dat je hebt geknipt van buiten git
+
+// Nu even overstappen op handleidingGitHub.html
+    // Nieuw repository (het + teken)(Nieuwe opslagplaats)
+    // Naast vakje owner (eigenaar)(Erwin70) >>> Name repository (naam van opslagplaats) invullen bijvoorbeeld www.
+    // Openbaar of prive aanvinken indien gewenst
+    // Dan op buttom make repository (maak repository)
+// en na die stappen te hebben voltooid kan je terug in git deze code invoeren
+
+git remote add origin https://github.com/erwin70/www.git
+git branch -M main 
+git push -u origin main
 
 
 
