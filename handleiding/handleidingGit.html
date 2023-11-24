@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+<head>
+<title>Git en github in eigen woorden</title>
+<!-- De volgende lijn zorgt ervoor dat we de tekencodering kunnen gebruiken die bijna alle speciale tekens omvat die we in europa gebruiken  -->
+<meta charset="UTF-8">
+<!-- De naam van de auteur van deze pagina -->
+<meta name="author" content="Erwin Leemans">
+<!-- De kernwoorden waar onze pagina over gaat -->
+<meta name="keywords" content="Git, github, cursus">
+<!-- De korte uitleg over deze pagina -->
+<meta name="description" content=" In eenvoudige taal git en github uitgelegd">
+<!-- Deze regel zorgt er voor dat onze pagina zich automatisch aanpast aan eender welke breedte van scherm -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>  
+<body style="background-color: beige"> 
+<!-- 
+git innit                   maakt een lege .git-repository map aan of innitialiseer een bestaande opnieuw
+git mkdir www               maakt een map aan met naam www
+cd www                      gaat een stap hoger in de map www
+cd ..                       gaat uit de map naar een map lager
+cd www          
+git innit       
+ls                          (list) toont de lijst van files/maps in deze folder
+touch test.txt              maakt een bestand aan genaamd test.txt
+ls
+git status                  toont de commit status van de werkende boom
+git add test.txt            voeg het bestand test.txt toe
+git status          
+git rm --cached test.txt    verwijderd het bestand test.txt terug maar niet definitief
+ls
+git status
+git rm -f test.txt          verwijderd het bestand test.txt terug maar wel definitief
+ls
+git status
+
+// reset of clear of toets ctrl+l of toets alt+F8 kan je allemaal gebruiken om het terminal scherm te legen
+// gebruik de pijlen naar boven en naar onder om de vorige/volgende code te laten zien
+
+git commit -m "Het lege file test.txt aangemaakt"
+ls
+git status
+git log             toont de commit logboek
+
+-->
+</body>
+</html>
