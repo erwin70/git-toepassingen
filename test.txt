@@ -1,7 +1,10 @@
 # Erwin
 # dit is een test om git pull commando vanuit git
-#dit is de test om via git the push commando te gebruiken
-#probleemverhelping
-#probleemveroorzaker
+# dit is de test om via git the push commando te gebruiken
+# probleemverhelping
+# probleemveroorzaker
+# we gaan een nieuwe branch aanmaken genaamd testbranch
+# we voeren wart veranderingen toe in ons document
+# en gaan deze duwen naar GitHub
 #end
 
