@@ -39,8 +39,12 @@ ls
 git status
 git log                                                     toont de commit logboek
 
+
+
 // reset of clear of toets ctrl+l of toets alt+F8 kan je allemaal gebruiken om het terminal scherm te legen
 // gebruik de pijlen naar boven en naar onder om de vorige/volgende code te laten zien
+
+
 
 git checkout -b testbranch                                  maak een nieuwe branch (aftakking) aan en alles wat je dan wijzigd gebeurt nu in deze branch
 git add.
@@ -50,7 +54,11 @@ git checkout testbranch                                     nu zie je wel de laa
 git checkout main
 git merge main                                              voeg alles van testbranch en main samen in main
 
+
+
 // met rechtermuisknop en paste kun je iets plakken dat je hebt geknipt van buiten git
+
+
 
 // Nu even overstappen op handleidingGitHub.html
     // Nieuw repository (het + teken)(Nieuwe opslagplaats)
@@ -58,10 +66,24 @@ git merge main                                              voeg alles van testb
     // Openbaar of prive aanvinken indien gewenst
     // Dan op buttom make repository (maak repository)
 // en na die stappen te hebben voltooid kan je terug in git deze code invoeren
-
 git remote add origin https://github.com/erwin70/www.git
 git branch -M main 
 git push -u origin main
+
+
+
+// wijzigingen in  Github gemaakt naar computer trekken
+git pull
+
+
+// wijzigingen op computer gemaakt naar GitHub duwen
+git add .
+git commit -m "commentaar"
+git push
+
+
+
+
 
 
 
